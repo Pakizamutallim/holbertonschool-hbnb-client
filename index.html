@@ -9,20 +9,43 @@
 <body>
     <header>
         <nav>
-            <a href="login.html" id="login-link">Login</a>
+            <img src="./images/logo.png" alt="HBnB Logo" class="logo">
+            <a href="login.html" id="login-link" class="login-button">Login</a>
         </nav>
     </header>
     <main>
         <section id="filter">
+            <div class="title">
+                <h2>Available Places</h2>
+            </div>
             <label for="country-filter">Filter by Country:</label>
             <select id="country-filter">
-                <!-- Options will be populated dynamically -->
+                <option value="all">All</option>
+                <!-- Add more options dynamically -->
             </select>
         </section>
-        <section id="places-list">
+        <section id="places-list" class="places-list">
             <!-- List of places will be populated dynamically -->
         </section>
     </main>
+    <footer>
+        <p>&copy; 2024 HBnB Evolution. All rights reserved.</p>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
+
+
+
+
+<!-- <label for="country-filter">Filter by Country:</label>
+<select id="country-filter">
+    <option value="Azerbaijan">Azerbaijan</option>
+    <option value="Russia">Russia</option>
+    <option value="Japan">Japan</option>
+    <option value="Greek">Greek</option>
+    <option value="German">German</option>
+    <option value="USA">USA</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Hungary">Hungary</option>
+</select> -->
